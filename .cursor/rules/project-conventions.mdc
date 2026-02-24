@@ -1,0 +1,29 @@
+---
+description: Core project conventions for routine-finder-quiz
+alwaysApply: true
+---
+
+# Routine Finder Quiz - Project Conventions
+
+## Project Overview
+
+This is the Dermalogica Routine Finder Quiz - a quiz application that helps users discover their ideal skincare routine.
+
+## General Guidelines
+
+- Write clear, maintainable code with descriptive names
+- Prefer composition over inheritance
+- Keep components and functions focused and single-purpose
+- Add comments for non-obvious logic; let code be self-documenting where possible
+
+## Code Style
+
+- Use consistent formatting (run formatter/linter before committing)
+- Prefer `const` over `let`; avoid `var`
+- Use meaningful variable and function names that reflect their purpose
+
+## Error Handling
+
+- Handle errors gracefully with user-friendly messages
+- Log errors for debugging; avoid silent failures
+- Validate user input before processing
